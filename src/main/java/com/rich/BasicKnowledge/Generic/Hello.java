@@ -18,19 +18,19 @@ public class Hello {
     }
     class B{
     }
-    public static void main(String[] args) {
-        List<String> list = list();
-        List<Integer> integers = list();
-
-        List<? extends A> listA = new ArrayList<>();
-        get(listA);
-        getA(listA);
-        List<? super B> listB = new ArrayList<>();
-        get(listB);
-
-        list.forEach(ss -> ss.equals(""));
-
-    }
+//    public static void main(String[] args) {
+//        List<String> list = list();
+//        List<Integer> integers = list();
+//
+//        List<? extends A> listA = new ArrayList<>();
+//        get(listA);
+//        getA(listA);
+//        List<? super B> listB = new ArrayList<>();
+//        get(listB);
+//
+//        list.forEach(ss -> ss.equals(""));
+//
+//    }
 
     /**
     * @Description: 最简单的泛型方法，我们 new 对象的时候，指定 T，T填充具体类型
